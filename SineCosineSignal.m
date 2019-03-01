@@ -1,6 +1,6 @@
 % Sine and cosine signals
-signal_frecuency=1; %signal frequency in Hz
-signal_frecuencty_rads_per_sec=2*pi*signal_frecuency; %signal frequency in rad/s
+signal_frecuency_hz=1; %signal frequency in Hz
+signal_frecuencty_rads_per_sec=2*pi*signal_frecuency_hz; %signal frequency in rad/s
 sampling_frecuency_hz=60; %sampling frequency in Hz
 time_interval=1/sampling_frecuency_hz; %time interval between samples;
 signal_duration=3; % duration of the signal
