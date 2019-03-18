@@ -7,7 +7,7 @@ signal_duration=5; %signal duration in seconds
 time=0:time_interval:(signal_duration-time_interval); %time intervals set (5 seconds)
 %signal data set:
 y=0.64*sin(signal_frecuency_rads_per_sec*time)+0.21*sin(3*signal_frecuency_rads_per_sec*time)+0.12*sin(5*signal_frecuency_rads_per_sec*time);
-sound(y,sampling_frecuency_hz); %sound
+%sound(y,sampling_frecuency_hz); %sound
 time=0:time_interval:(0.01-time_interval); %time intervals set (0.01 second)
 %signal data set:
 y1=0.6*sin(signal_frecuency_rads_per_sec*time); %frecuency: 1*signal_frecuency_hz hz (red)
