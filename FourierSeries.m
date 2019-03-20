@@ -28,7 +28,7 @@ for i=1:n
    signal_fourier = @(t) signal_fourier(t) + aux1(t) + aux2(t);
 end
 
-axis([0 0.01 -1.5 1.5]);
+axis([0 0.02 -1.5 1.5]);
 xlabel('seconds'); title('Fourier Series Example');
 plot(time,feval(signal_fourier, time),'-.r*');  hold on; %plots figure
 plot(time,feval(p, time),'b','LineWidth',1);  hold on; %plots figure
